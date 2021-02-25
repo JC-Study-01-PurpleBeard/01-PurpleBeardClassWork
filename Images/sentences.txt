@@ -1,0 +1,32 @@
+Due to adverse weather in some locations delivery may take longer than usual. Sorry for the incovenience and thank you for your patience.
+
+All our deliveries are contact-free to keep everyone healthy. All orders will need to be paid online by debit/credit card.
+
+
+Deal may vary by location, only at participating stores, excluding dine-in restaurants, T&Cs apply
+
+
+	<td>
+            <h1>About US</h1>
+            <p>About-Us</p>
+            <p>Contact-free delivery</p>
+            <p>Dine-in Restaurants</p>
+            <p>Recruitment</p>
+            <p>Franchise</p>
+          </td>
+          <td>
+            <h1>Help & Service</h1>
+            <p>About-Us</p>
+            <p>Contact-free delivery</p>
+            <p>Dine-in Restaurants</p>
+            <p>Recruitment</p>
+            <p>Franchise</p>
+          </td>
+          <td>
+            <h1>Our Policies</h1>
+            <p>About-Us</p>
+            <p>Contact-free delivery</p>
+            <p>Dine-in Restaurants</p>
+            <p>Recruitment</p>
+            <p>Franchise</p>
+          </td>

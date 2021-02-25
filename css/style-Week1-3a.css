@@ -1,0 +1,65 @@
+* {
+    /*color:white;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*-- this keeps references inclusive of the border*/
+}
+
+header{
+    position: fixed;
+    border: 2px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color: lightsteelblue;
+    color: grey;
+    text-shadow: 2px 2px grey;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 25px;
+    padding: 1em;
+    float: left;
+}
+
+#banner{
+    position: relative;
+    top: 100px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 350px;
+    opacity: 0.5;
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#banner-text{
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+button{
+    font-size: 20px;
+    padding: 20px 25px;
+    margin: 5px;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid grey;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}

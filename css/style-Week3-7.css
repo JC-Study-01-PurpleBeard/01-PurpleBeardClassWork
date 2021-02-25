@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+#showCars {
+    border: 1px solid black;
+    width: 80%;
+    height: fit-content;
+}
+
+.card {
+    width: 100px;
+    height: 120px;
+    columns: white;
+    background-color: tomato;
+}

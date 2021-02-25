@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 85%;
+	margin: auto;
+	border: 1px solid black;
+
+	display: grid;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+}
+
+.imgDetails {
+	width: 220px;
+	height: 30vh;
+	background-size: cover;
+}
+
+.imgDetails:hover {
+	/* border: 5px solid black; */
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

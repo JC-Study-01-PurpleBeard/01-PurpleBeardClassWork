@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Week 4-12</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/style-Week4-12.css" />
+	</head>
+	<body>
+		<h1>hello, <span id="currentuser"></span></h1>
+		<br />
+		<h3>Files</h3>
+		<p>index-Week4-12.html</p>
+		<p>index-Week4-12login.html</p>
+		<p>index-Week4-12signup.html</p>
+		<p>app-Week4-12.js</p>
+		<p>style-Week4-12.css</p>
+		<script src="js/app-Week4-12.js"></script>
+		<script>
+			document.getElementById('currentuser').innerHTML = JSON.parse(
+				localStorage.getItem('currentUser')
+			);
+		</script>
+	</body>
+</html>
